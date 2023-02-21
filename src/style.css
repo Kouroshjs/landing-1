@@ -17,7 +17,7 @@ font-family: 'Open Sans', sans-serif; */
 }
 
 
-.header{
+.header {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -28,17 +28,17 @@ font-family: 'Open Sans', sans-serif; */
     height: 2rem;
 }
 
-.logo img{
+.logo img {
     width: 100%;
     height: 100%;
 }
 
-.btn-right{
+.btn-right {
     background: #ffff;
-    border: solid  hsl(321, 100%, 78%) 2px;
+    border: solid hsl(321, 100%, 78%) 2px;
     padding: 0.5rem 2rem;
     border-radius: 5rem;
-    color:hsl(322, 100%, 66%);
+    color: hsl(322, 100%, 66%);
 }
 
 .content h1 {
@@ -64,16 +64,16 @@ font-family: 'Open Sans', sans-serif; */
 
 }
 
-.content{
+.content {
     padding-top: 8rem;
     display: flex;
     align-items: center;
     flex-direction: column;
 }
 
-.btn-content{
+.btn-content {
     background: #fff;
-    border:none ;
+    border: none;
     background: hsl(322, 100%, 66%);
     padding: 1rem 4rem;
     border-radius: 5rem;
@@ -81,7 +81,7 @@ font-family: 'Open Sans', sans-serif; */
     font-family: 'Open Sans', sans-serif;
     font-weight: 700;
     box-shadow: #acacac 0px 5px 10px 1px;
-    
+
 }
 
 .container .screen-img {
@@ -96,13 +96,14 @@ font-family: 'Open Sans', sans-serif; */
 
 }
 
-.data{
+.data {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    align-items:center;
+    align-items: center;
     padding-top: 8rem;
 }
+
 .data .top {
     padding-bottom: 8rem;
 }
@@ -146,12 +147,12 @@ font-family: 'Open Sans', sans-serif; */
     text-align: center;
 }
 
-.grow{
+.grow {
     width: 100%;
     background-color: #fff;
 }
 
-.grow__top{
+.grow__top {
     width: 100%;
 }
 
@@ -159,7 +160,7 @@ font-family: 'Open Sans', sans-serif; */
     width: 100%;
 }
 
-.grow__img{
+.grow__img {
     width: 100%;
     background-color: hsl(207, 100%, 98%);
     padding-top: 3rem;
@@ -168,10 +169,10 @@ font-family: 'Open Sans', sans-serif; */
 
 .grow__img img {
     width: 100%;
-    
+
 }
 
-.grow__text{
+.grow__text {
     background-color: hsl(207, 100%, 98%);
     margin: 0 auto;
     padding: 3rem;
@@ -194,7 +195,7 @@ font-family: 'Open Sans', sans-serif; */
     line-height: 1.4;
 }
 
-.grow__bottom{
+.grow__bottom {
     width: 100%;
 }
 
@@ -202,12 +203,12 @@ font-family: 'Open Sans', sans-serif; */
     width: 100%;
 }
 
-.conversation{
+.conversation {
     width: 100%;
     padding-top: 8rem;
 }
 
-.conversation__img{
+.conversation__img {
     width: 80%;
     margin: 0 auto;
     padding-bottom: 5rem;
@@ -217,9 +218,10 @@ font-family: 'Open Sans', sans-serif; */
     width: 100%;
 }
 
-.conversation__text{
+.conversation__text {
     width: 80%;
     margin: 0 auto;
+    padding-bottom: 5rem;
 }
 
 .conversation__text h1 {
@@ -235,4 +237,244 @@ font-family: 'Open Sans', sans-serif; */
     font-family: 'Open Sans', sans-serif;
     line-height: 1.4;
     font-size: 1.1rem;
+}
+
+.users {
+    width: 100%;
+}
+
+.users__top {
+    width: 100%;
+}
+
+.users__top img {
+    width: 100%;
+}
+
+.users__img {
+    background-color: hsl(207, 100%, 98%);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 5rem;
+}
+
+.users__img img {
+    width: 80%;
+
+}
+
+.users__text {
+    background-color: hsl(207, 100%, 98%);
+    padding-bottom: 5rem;
+}
+
+.users__text h1 {
+    text-align: center;
+    padding-bottom: 2rem;
+    font-size: 2rem;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
+
+.users__text p {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.4;
+    font-size: 1.1rem;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.users__bottom {
+    width: 100%;
+}
+
+.users__bottom img {
+    width: 100%;
+}
+
+.build {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+    padding-bottom: 20rem;
+}
+
+.build h1 {
+    font-size: 2rem;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 3rem;
+    padding-top: 3rem;
+    line-height: 1.5;
+}
+
+
+.build__btn {
+    background: #fff;
+    border: none;
+    background: hsl(322, 100%, 66%);
+    padding: 1rem 4rem;
+    border-radius: 5rem;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    box-shadow: #acacac 0px 5px 10px 1px;
+}
+
+
+.footer{
+    width: 100%;
+}
+
+.footer__top{
+    width: 100%;
+}
+
+.footer__top img {
+    width: 100%;
+}
+
+.footer__top-text{
+    background-color: hsl(192, 100%, 9%);
+    color: white;
+    padding-top: 5rem;
+}
+
+.footer__top-text h1{
+    font-family: 'Poppins', sans-serif;
+    width: 90%;
+    margin: 0 auto;
+    font-size: 2rem;
+    padding-bottom: 2rem;
+}
+
+.footer__top-text p {
+    font-family: 'Open sans', sans-serif;
+    width: 90%;
+    margin: 0 auto;
+    line-height: 1.3;
+    font-size: 1.3rem;
+    padding-bottom: 2rem;
+    
+}
+
+.footer__email{
+    background-color: hsl(192, 100%, 9%);
+}
+
+.footer__input {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: 0 auto;
+    padding-bottom:10rem;
+}
+
+.footer__input input {
+    height: 3rem;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+
+   
+}
+
+.footer__input button {
+    border: none;
+    background: hsl(322, 100%, 66%);
+    padding: 1rem 4rem;
+    border-radius: 3px;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    width: 50%;
+    align-self: flex-end;
+    margin-top: 1.5rem;
+    display: flex;
+    justify-content: center;
+}
+
+.footer__middle{
+    background-color: hsl(192, 100%, 9%);
+}
+
+.footer__middle-text {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.footer__middle-text p{
+    color: white;
+    padding-top: 2rem;
+    line-height: 1.3;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2rem;
+    padding-bottom: 2rem;
+}
+
+.footer__contact{
+    background-color: hsl(192, 100%, 9%);
+    padding-top: 2rem;
+}
+
+.contact {
+    width: 90%;
+    margin: 0 auto;
+} 
+
+.phone {
+    color: white;
+    display: flex;
+}
+
+.phone-icon svg{
+    width: 1.5rem;
+}
+
+.phone-number p{
+    font-size: 1.5rem;
+    padding-left: 1rem;
+}
+
+.email{
+    color: white;
+    display: flex;
+    padding-top: 1rem;
+}
+
+.email-icon svg{
+    width: 1.5rem;
+}
+
+.email-address p{
+    font-size: 1.5rem;
+    padding-left: 1rem;
+}
+
+.icon svg {
+    color: white;
+    width: 2rem;
+    height: 2rem;
+}
+
+
+
+
+.footer__icon{  
+    background-color: hsl(192, 100%, 9%);
+}
+
+
+.icon {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    gap: 1rem;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
 }
