@@ -1,0 +1,147 @@
+/* font-family: 'Poppins', sans-serif;
+font-family: 'Open Sans', sans-serif; */
+/* ### Primary
+
+- Pink: hsl(322, 100%, 66%)
+- Light Pink: hsl(321, 100%, 78%)
+- Light Red: hsl(0, 100%, 63%)
+
+### Neutral
+
+- Very Dark Cyan: hsl(192, 100%, 9%)
+- Very Pale Blue: hsl(207, 100%, 98%) */
+
+.container {
+    width: 90%;
+    margin: 2rem auto;
+}
+
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 11rem;
+    height: 2rem;
+}
+
+.logo img{
+    width: 100%;
+    height: 100%;
+}
+
+.btn-right{
+    background: #ffff;
+    border: solid  hsl(321, 100%, 78%) 2px;
+    padding: 0.5rem 2rem;
+    border-radius: 5rem;
+    color:hsl(322, 100%, 66%);
+}
+
+.content h1 {
+    font-size: 2rem;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    padding-bottom: 2rem;
+    line-height: 1.5;
+}
+
+.content p {
+    text-align: center;
+    font-size: 1.2rem;
+    font-family: 'Open Sans', sans-serif;
+    color: #0a0a0a;
+    font-weight: 300;
+    width: 85%;
+    line-height: 1.3;
+    padding-bottom: 4rem;
+
+
+
+
+}
+
+.content{
+    padding-top: 8rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.btn-content{
+    background: #fff;
+    border:none ;
+    background: hsl(322, 100%, 66%);
+    padding: 1rem 4rem;
+    border-radius: 5rem;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    box-shadow: #acacac 0px 5px 10px 1px;
+    
+}
+
+.container .screen-img {
+    width: 100%;
+    padding-top: 8rem;
+    display: flex;
+    justify-content: center;
+}
+
+.screen-img img {
+    width: 100%;
+
+}
+
+.data{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items:center;
+    padding-top: 8rem;
+}
+.data .top {
+    padding-bottom: 8rem;
+}
+
+.data .top img {
+    width: 2rem;
+    padding-bottom: 1rem;
+}
+
+.top h1 {
+    font-size: 4rem;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bolder;
+    padding-bottom: 1rem;
+
+}
+
+.top h2 {
+    font-family: 'Open Sans', sans-serif;
+    color: gray;
+    text-align: center;
+
+}
+
+.data .bottom img {
+    width: 2rem;
+    padding-bottom: 1rem;
+}
+
+.bottom h1 {
+    font-size: 4rem;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bolder;
+    padding-bottom: 1rem;
+
+}
+
+.bottom h2 {
+    font-family: 'Open Sans', sans-serif;
+    color: gray;
+    text-align: center;
+}
