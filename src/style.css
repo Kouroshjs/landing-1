@@ -145,3 +145,94 @@ font-family: 'Open Sans', sans-serif; */
     color: gray;
     text-align: center;
 }
+
+.grow{
+    width: 100%;
+    background-color: #fff;
+}
+
+.grow__top{
+    width: 100%;
+}
+
+.grow__top img {
+    width: 100%;
+}
+
+.grow__img{
+    width: 100%;
+    background-color: hsl(207, 100%, 98%);
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.grow__img img {
+    width: 100%;
+    
+}
+
+.grow__text{
+    background-color: hsl(207, 100%, 98%);
+    margin: 0 auto;
+    padding: 3rem;
+}
+
+.grow__text h1 {
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    padding-bottom: 2rem;
+}
+
+.grow__text p {
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.1rem;
+    line-height: 1.4;
+}
+
+.grow__bottom{
+    width: 100%;
+}
+
+.grow__bottom img {
+    width: 100%;
+}
+
+.conversation{
+    width: 100%;
+    padding-top: 8rem;
+}
+
+.conversation__img{
+    width: 80%;
+    margin: 0 auto;
+    padding-bottom: 5rem;
+}
+
+.conversation__img img {
+    width: 100%;
+}
+
+.conversation__text{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.conversation__text h1 {
+    text-align: center;
+    padding-bottom: 2rem;
+    font-size: 2rem;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
+
+.conversation__text p {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.4;
+    font-size: 1.1rem;
+}
