@@ -28,6 +28,10 @@ font-family: 'Open Sans', sans-serif; */
     height: 2rem;
 }
 
+.logo:hover {
+    poin
+}
+
 .logo img {
     width: 100%;
     height: 100%;
@@ -47,6 +51,7 @@ font-family: 'Open Sans', sans-serif; */
     text-align: center;
     padding-bottom: 2rem;
     line-height: 1.5;
+    width: 25rem;
 }
 
 .content p {
@@ -165,10 +170,13 @@ font-family: 'Open Sans', sans-serif; */
     background-color: hsl(207, 100%, 98%);
     padding-top: 3rem;
     padding-bottom: 3rem;
+    display: flex;
+    justify-content: center;
 }
 
 .grow__img img {
-    width: 100%;
+    width:80%;
+
 
 }
 
@@ -176,6 +184,10 @@ font-family: 'Open Sans', sans-serif; */
     background-color: hsl(207, 100%, 98%);
     margin: 0 auto;
     padding: 3rem;
+}
+
+.grow__content {
+    background-color: hsl(207, 100%, 98%);
 }
 
 .grow__text h1 {
@@ -243,6 +255,11 @@ font-family: 'Open Sans', sans-serif; */
     width: 100%;
 }
 
+.users__content {
+
+    background-color: hsl(207, 100%, 98%);
+
+}
 .users__top {
     width: 100%;
 }
@@ -274,7 +291,7 @@ font-family: 'Open Sans', sans-serif; */
     padding-bottom: 2rem;
     font-size: 2rem;
     font-family: 'Open Sans', sans-serif;
-    font-weight: bold;
+    font-weight: bold
 }
 
 .users__text p {
@@ -314,7 +331,7 @@ font-family: 'Open Sans', sans-serif; */
 }
 
 
-.build__btn {
+.btn__build {
     background: #fff;
     border: none;
     background: hsl(322, 100%, 66%);
@@ -477,4 +494,176 @@ font-family: 'Open Sans', sans-serif; */
     gap: 1rem;
     padding-top: 3rem;
     padding-bottom: 2rem;
+}
+
+
+
+@media (min-width:1080px) {
+    .content p {
+        width: 35rem;
+    }
+    .screen-img img {
+        width: 80%;
+    
+    }
+    .data {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+        align-items: center
+    
+    } 
+
+    .top h1{
+        font-size: 5rem;
+        padding-top: 0;
+    }
+    .top h2{
+        font-size: 1rem;
+        padding-top: 0;
+    }
+
+    .bottom h1 {
+        font-size: 5rem;
+        padding-top: 0;
+    }
+    .bottom h2 {
+        font-size: 1rem;
+        padding-top: 0;
+    }
+
+    .data .top {
+        padding-bottom: 0;
+    }
+    .grow__top img{
+        height: 10rem;
+    }
+
+    .grow__content {
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+    }
+    .grow__text h1 , .grow__text p{
+        text-align: left;
+    }
+
+    .grow__text p {
+        font-size: 1rem;
+        width: 60%;
+        margin: 0;
+    }
+
+    .grow__img {
+        padding-right: 4rem;
+    } 
+
+    .conversation {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .conversation__text h1 , .conversation__text p {
+        text-align: left;
+    }
+
+    .conversation__img {
+        width: 40%;
+    }
+
+    .conversation__text p {
+        font-size: 0.9rem;
+    }
+
+    .conversation__text {
+        width: 40%;
+    }
+
+    .users__top img {
+        height: 8rem;
+    }
+
+    .users__img {
+        width: 50%;
+        padding-top: 5rem;
+        padding-right: 10rem;
+    }
+
+    .users__content {
+        display: flex;
+        flex-direction: row-reverse;
+        align-items:center;
+
+    }
+
+    .users__text {
+        padding: 3rem;
+    }
+
+    .users__text h1 , .users__text p {
+        text-align: left;
+    }
+
+    .users__text p {
+        margin: 0;
+        width: 60%;
+    }
+
+    .users__bottom img {
+        height: 8rem;
+    }
+
+    .build h1 {
+        font-size: 3rem;
+    }
+
+    .footer__top img {
+        height: 8rem;
+    }
+
+    .footer__content {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        background-color: hsl(192, 100%, 9%);
+        align-items:flex-start;
+
+    }
+
+    .footer__left {
+        background-color: hsl(192, 100%, 9%);
+        scale: 0.7;
+        width: 40%;
+    }
+    .footer__right {
+       scale: 0.7;
+       width: 40%;
+    }
+
+    .footer__top-text {
+        padding: 0;
+    }
+}
+
+
+.btn-content:hover {
+    background-color:  hsl(322, 59%, 53%);
+    color:  hsl(322, 100%, 93%);
+}
+
+.btn-right:hover {
+    background-color:  hsl(322, 59%, 53%);
+    color:  hsl(322, 100%, 93%);
+    border: none;
+}
+
+.btn__build:hover {
+    background-color:  hsl(322, 59%, 53%);
+    color:  hsl(322, 100%, 93%);
+}
+
+.btn__sub:hover {
+    background-color:  hsl(322, 59%, 53%);
+    color:  hsl(322, 100%, 93%);
 }
